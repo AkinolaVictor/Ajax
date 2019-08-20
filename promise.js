@@ -18,6 +18,8 @@ p1.then((ex) => {
     return ex * 2;
 }).then ((x) => {
     console.log(x+3);
-}).catch( (exx) =>{
+}).then(()=>{
+})
+    .catch( (exx) =>{
     console.log(rand());
 });
