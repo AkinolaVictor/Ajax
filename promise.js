@@ -7,7 +7,7 @@ let p1 = new Promise((resolve,reject) => {
     //let errr =() => console.log('there is an error');
     let xo = rand();
     //resolve(xo);
-    setTimeout(resolve, 1500, xo);    
+    setTimeout(resolve, 1000, xo);    
 });
 
 p1.then((ex) => {
