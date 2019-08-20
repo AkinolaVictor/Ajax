@@ -13,6 +13,7 @@ let p1 = new Promise((resolve,reject) => {
 p1.then((ex) => {
     console.log(ex);
     let m;
+    m= ex + 2
     return ex * 2;
 }).then ((x) => {
     console.log(x+3);
