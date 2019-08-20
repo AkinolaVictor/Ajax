@@ -20,7 +20,7 @@ p1.then((ex) => {
     console.log(x+3);
     return x;
 }).then((oo)=>{
-    oo = oo + ' Equal'
+    oo = oo + ' Equal';
 }).catch( (exx) =>{
     console.log(rand());
 });
