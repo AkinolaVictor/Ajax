@@ -19,7 +19,6 @@ p1.then((ex) => {
 }).then ((x) => {
     console.log(x+3);
 }).then(()=>{
-})
-    .catch( (exx) =>{
+}).catch( (exx) =>{
     console.log(rand());
 });
