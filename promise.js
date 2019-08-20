@@ -21,6 +21,7 @@ p1.then((ex) => {
     return x;
 }).then((oo)=>{
     oo = oo + ' Equal';
+    console.log(oo)
 }).catch( (exx) =>{
     console.log(rand());
 });
