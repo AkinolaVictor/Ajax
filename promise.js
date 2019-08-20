@@ -1,6 +1,7 @@
 let rand = () => Math.floor(Math.random()*10)+1;
 
 // There are other functionalities like "all" and "race", and so on
+//They would be coming up soon
 
 
 let p1 = new Promise((resolve,reject) => { 
