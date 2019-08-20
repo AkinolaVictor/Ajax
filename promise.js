@@ -18,7 +18,9 @@ p1.then((ex) => {
     return ex * 2;
 }).then ((x) => {
     console.log(x+3);
-}).then(()=>{
+    return x;
+}).then((oo)=>{
+    oo = oo + ' Equal'
 }).catch( (exx) =>{
     console.log(rand());
 });
