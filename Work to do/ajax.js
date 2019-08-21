@@ -19,6 +19,7 @@ fetch( req )
         
     })
     .then((data) => {
+        // here what is done is to select the ul 
         let ul = document.querySelector('#users');
         let df = new DocumentFragment();
         //console.log(data);
