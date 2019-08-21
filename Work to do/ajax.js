@@ -20,6 +20,7 @@ fetch( req )
     })
     .then((data) => {
         // here what is done is to select the ul 
+        // and to also create a fragment to contain it
         let ul = document.querySelector('#users');
         let df = new DocumentFragment();
         //console.log(data);
