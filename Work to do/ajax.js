@@ -11,7 +11,7 @@ let options = {
 }
 let req = new Request(uri, options);
 
-
+// using the fetch method
 fetch( req )
     .then( (response) => {
         if (response.ok){
