@@ -1,4 +1,5 @@
 // This is for the purpose of extracting email and usernames from an api
+// The link is a ready made data containing details of users
 const uri = 'http://jsonplaceholder.typicode.com/users';
 
 // here we only need the method and mode options
