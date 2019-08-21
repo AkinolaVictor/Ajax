@@ -24,6 +24,7 @@ fetch( req )
         //console.log(data);
         data.forEach((user)=>{
             // here what is done is to create create containers for the data
+            // and to insert the data into the containers
             let li = document.createElement('li');
             let pn = document.createElement('p');
             let pue = document.createElement('p');
