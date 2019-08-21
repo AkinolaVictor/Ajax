@@ -1,7 +1,7 @@
 // This is for the purpose of extracting email and usernames from an api
 const uri = 'http://jsonplaceholder.typicode.com/users';
 
-
+// here we only need the method and mode options
 let options = {
     method: 'GET',
     mode: 'cors'
