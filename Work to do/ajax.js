@@ -2,7 +2,7 @@
 const uri = 'http://jsonplaceholder.typicode.com/users';
 
 // here we only need the method and mode options
-// its get because we are onlu requesting data from the api, 
+// its get because we are onlu requesting data from the api, not updating, or doing other things
 let options = {
     method: 'GET',
     mode: 'cors'
