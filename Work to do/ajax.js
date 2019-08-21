@@ -1,4 +1,4 @@
-
+// This is for the purpose of extracting email and usernames from an api
 const uri = 'http://jsonplaceholder.typicode.com/users';
 
 
