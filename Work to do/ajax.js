@@ -23,6 +23,7 @@ fetch( req )
         let df = new DocumentFragment();
         //console.log(data);
         data.forEach((user)=>{
+            // here what is done is to create create containers for the data
             let li = document.createElement('li');
             let pn = document.createElement('p');
             let pue = document.createElement('p');
