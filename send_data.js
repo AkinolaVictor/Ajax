@@ -2,7 +2,7 @@
 const root = 'http://jsonplaceholder.typicode.com/';
 let uri = root + 'posts';
 
-//this entails the data
+//this entails the data to be sent
 let formdata = new FormData();
 formdata.append('userid', 3);
 formdata.append('Title','This is my title');
