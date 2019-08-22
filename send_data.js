@@ -33,6 +33,8 @@ fetch(req)
             console.log('yes');
         else
             
+            consloe.log('no');
+            
     })
     .catch((ex)=>{
        console.log('ERROR!!!', err.message);
