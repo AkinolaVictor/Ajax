@@ -29,6 +29,7 @@ fetch(req)
     })
     .then((json)=>{
         console.log(data);
+        // this is a
         if (data)
             console.log('yes');
         else
