@@ -29,7 +29,7 @@ fetch(req)
     })
     .then((json)=>{
         console.log(data);
-        // this is a tst
+        // this is a test
         if (data)
             console.log('yes');
         else
