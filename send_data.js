@@ -3,6 +3,7 @@ const root = 'http://jsonplaceholder.typicode.com/';
 let uri = root + 'posts';
 
 //this entails the data to be sent, you put it in a form
+//the for is then sent online
 let formdata = new FormData();
 formdata.append('userid', 3);
 formdata.append('Title','This is my title');
