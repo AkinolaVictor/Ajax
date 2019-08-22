@@ -8,7 +8,7 @@ let formdata = new FormData();
 formdata.append('userid', 3);
 formdata.append('Title','This is my title');
 formdata.append('body', 'This is the body text of the post');
-formdata.append('Description', );
+formdata.append('Description', 'it helps to make you know more about things');
 
 let options= {
     method: 'POST',
