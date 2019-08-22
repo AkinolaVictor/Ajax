@@ -1,4 +1,4 @@
-//here we 
+//here we are learning how to send data online
 const root = 'http://jsonplaceholder.typicode.com/';
 let uri = root + 'posts';
 
