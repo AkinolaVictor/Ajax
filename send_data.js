@@ -29,7 +29,7 @@ fetch(req)
     })
     .then((json)=>{
         console.log(data);
-        // this is a test to ensure the validity
+        // this is a test to ensure the validity of the data
         if (data)
             console.log('yes');
         else
