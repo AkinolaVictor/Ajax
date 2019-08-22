@@ -31,6 +31,7 @@ fetch(req)
         console.log(data);
         if (data)
             console.log('yes');
+        else
             
     })
     .catch((ex)=>{
