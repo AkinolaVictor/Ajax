@@ -30,6 +30,7 @@ fetch(req)
     .then((json)=>{
         console.log(data);
         if (data)
+            console.log('yes');
             
     })
     .catch((ex)=>{
