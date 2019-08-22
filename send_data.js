@@ -32,7 +32,6 @@ fetch(req)
         if (data)
             console.log('yes');
         else
-            
             consloe.log('no');
             
     })
