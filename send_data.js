@@ -11,6 +11,7 @@ formdata.append('body', 'This is the body text of the post');
 formdata.append('Description', 'it helps to make you know more about things');
 formdata.append('more', 'you can add lot more');
 
+//the options
 let options= {
     method: 'POST',
     mode: 'cors',
