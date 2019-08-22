@@ -29,6 +29,8 @@ fetch(req)
     })
     .then((json)=>{
         console.log(data);
+        if (data)
+            
     })
     .catch((ex)=>{
        console.log('ERROR!!!', err.message);
