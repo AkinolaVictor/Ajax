@@ -15,7 +15,7 @@ function upload(ev){
     //create any header to
     let h = new Headers();
     h.append('Accept', 'application/json');
-    // using the formData contain the data to be sent
+    // using the formData contain the data to be sent the
     let fd = new FormData();
     fd.append('user-id', document.getElementById('user_id').value);
     let myFile = document.getElementById('avatar_img').files[0];
