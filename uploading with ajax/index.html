@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset = 'UTF-8'>
+        <meta name = "viewport" context = "width=devict-width, initial-scale=1.0">
+        <title>Learning Ajax with Fetch</title>
+        <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+    </head>
+    <body>
+        <div id = "container">
+            <h1>Using fetch to upload files</h1>
+            <h2>Testing with postman</h2>
+            <p>https://postman-echo.com/post</p>
+            <form>
+                <div>
+                    <input type ='hidden' id='user_id' value='75'/>
+                    <input type ='file' id = 'avatar_img' accept='image/x-png' />
+                </div>
+                <div>
+                    <button id = 'btnSubmit'>Upload Avatar</button>
+                </div>
+            </form>
+            <div id="output">
+                
+            </div>
+        </div>
+
+        <script src = "app.js" async></script>
+    </body>
+</html>
