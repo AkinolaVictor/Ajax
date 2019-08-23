@@ -12,7 +12,7 @@ function init() {
 function upload(ev){
     ev.preventDefault(); //stop the form from submittion
 
-    //create any header to
+    //create any header
     let h = new Headers();
     h.append('Accept', 'application/json');
     // using the formData contain the data to be sent the server
