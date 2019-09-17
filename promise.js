@@ -13,6 +13,7 @@ let p1 = new Promise((resolve,reject) => {
     setTimeout(resolve, 1000, xo);    
 });
 
+// using the promise
 p1.then((ex) => {
     console.log(ex);
     let m;
