@@ -8,12 +8,12 @@ let rand = () => Math.floor(Math.random()*10)+1;
 
 let p1 = new Promise((resolve,reject) => { 
     //let errr =() => console.log('there is an error');
-    let xo = rand();
-    //resolve(xo);
-    setTimeout(resolve, 1000, xo);    
+    let xop = rand();
+    //resolve(xop);
+    setTimeout(resolve, 1000, xop);    
 });
 
-// using the promise
+// using the promise here
 p1.then((ex) => {
     console.log(ex);
     let m;
