@@ -25,7 +25,7 @@
                             output.textContext= JSON.stringify(err,null,2);
                             let oldtime = localStorage.getItem('westeros-time');
                             if(oldtime){
-                                //we have data
+                                //we have the data to cache
                                 let intOldTime = parseInt(oldtime);
                                 if(intOldTime + DATATIMEOUT < t){
                                     let ps = JSON.stringify(p);
