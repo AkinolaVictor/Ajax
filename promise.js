@@ -15,6 +15,8 @@ let p1 = new Promise((resolve,reject) => {
 
 // using the promise here
 p1.then((ex) => {
+let working='Your code is working';
+console.log(working);
     console.log(ex);
     let m;
     m= ex + 7;
