@@ -15,8 +15,8 @@ let p1 = new Promise((resolve,reject) => {
 
 // using the promise here
 p1.then((ex) => {
-let working='Your code is working';
-console.log(working);
+    let working='Your code is working';
+    console.log(working);
     console.log(ex);
     let m;
     m= ex + 7;
@@ -28,7 +28,7 @@ console.log(working);
     oo = oo + ' Equal';
     console.log(oo);
 }).then(()=>{
-    console.log('just for test');
+     console.log('just for test');
      console.log('just for test2');
 }).catch( (exx) =>{
     console.log(rand());
