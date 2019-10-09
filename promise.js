@@ -1,4 +1,4 @@
-//learning ajax is much fun 
+//learning ajax is much fun for me
 let rand = () => Math.floor(Math.random()*10)+1;
 
 // There are other functionalities like "all" and "race", and so on
