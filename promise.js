@@ -24,9 +24,9 @@ p1.then((ex) => {
 }).then ((x) => {
     console.log(x+3);
     return x;
-}).then((oo)=>{
-    oo = oo + ' Equal';
-    console.log(oo);
+}).then((o)=>{
+    o = oo + ' Equal';
+    console.log(o);
 }).then(()=>{
      console.log('just for test');
      console.log('just for test2');
